@@ -52,7 +52,7 @@ class AddActivity : AppCompatActivity() {
     fun GetIntent() {
         val i = intent
         if(i!=null){
-            if(i.getStringExtra(Constant.TITLE_KEY) != "null"){
+            if(i.getStringExtra(Constant.TITLE_KEY) != null){
                 etTitle.setText(i.getStringExtra(Constant.TITLE_KEY))
                 etText.setText(i.getStringExtra(Constant.TEXT_KEY))
                 status = true
