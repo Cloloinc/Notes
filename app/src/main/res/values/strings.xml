@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Блокнот</string>
+    <string name="save" />
+    <string name="title_add">Заголовок</string>
+</resources>
